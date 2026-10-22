@@ -1,0 +1,17 @@
+# build outputs
+test_opt
+test_dbg
+test_asan
+test_tsan
+test_cov
+kvstore_bench
+gen_traces
+gen_variant
+*.o
+*.gcda
+*.gcno
+*.gcov
+*.dSYM/
+# generated traces (GBs)
+*.dat
+.DS_Store
